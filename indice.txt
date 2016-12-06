@@ -11,7 +11,7 @@ View
 
 Rutas
 
-* 
+* Siempre asociada a un controlador y una vista.
 
 BoylerPlay
 
@@ -22,3 +22,11 @@ App.js
 
 * Line1: Crear, nos permite crear modulos. 
 * linea11: Obtener modulos, cuando el 2do argumento no se encuentra definido lo va a buscar uno y lo devuelve.
+* Config: definir rutas de nuestra app.
+* stateProvider: servicio dependencia que
+
+Scope
+
+* La función más importante de angular
+* es una variable utilizada para entregar el contenido desde el controlador a la vista
+* $scope.variable = "Hola mi genta!"
