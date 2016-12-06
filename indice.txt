@@ -1,0 +1,24 @@
+Controlador:
+
+* Orquestador el que manda
+* Indica las acciones
+
+View
+
+* Plantillas donde irán los datos.
+* Funciona con HTML5 y CSS3.
+* Soporta directiva enseña nuevos trucos agrega nuevas funcionalidades.
+
+Rutas
+
+* 
+
+BoylerPlay
+
+* Frameworks
+
+
+App.js
+
+* Line1: Crear, nos permite crear modulos. 
+* linea11: Obtener modulos, cuando el 2do argumento no se encuentra definido lo va a buscar uno y lo devuelve.
