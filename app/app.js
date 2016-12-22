@@ -4,7 +4,7 @@ angular.module('miapp', ['ui.router'])
       .state('ListTodo', {
         url: '/',
         controller:'ListController',
-        templateUrl:'app/views/list.html',
+        templateUrl:'views/list.html',
       })
     $urlRouterProvider.otherwise('/')
 })
@@ -25,3 +25,5 @@ angular.module('miapp')
       $scope.desc = ''
     }
   })
+
+

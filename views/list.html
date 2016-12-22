@@ -1,0 +1,17 @@
+<!--<input type="text" ng-model="desc" placeholder="Ingresa el todo..." />
+<button ng-click="agregar()">Agregar</button>
+<ul>
+  <li ng-repeat="todo in todos">
+    {{ todo.desc }}
+  </li>
+</ul>-->
+
+<div ng-show="!enviado">
+    <input ng-model="correo" />
+    <button ng-clikc="enviar()">Enviar...</button>
+</div>
+<div ng-show="cargando">Cargando...</div>
+
+<div ng-show="enviado && !cargando">
+    Hemos procesado tu información :)
+</div>
